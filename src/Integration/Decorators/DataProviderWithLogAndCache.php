@@ -36,7 +36,7 @@ class DataProviderWithLogAndCache extends BaseDecorator
     ) {
         parent::__construct($dataProvider);
 
-        // при использовании DI можнео было бы вызывать из контейнера зависимостей CacheItemPoolInterface и LoggerInterface
+        // TODO при использовании DI можнео было бы вызывать из контейнера зависимостей CacheItemPoolInterface и LoggerInterface
         $this->cache = $cache;
         $this->logger = $logger;
     }
