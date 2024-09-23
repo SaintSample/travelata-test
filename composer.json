@@ -1,0 +1,23 @@
+{
+    "name": "kzolotarev/travelata-test",
+    "description": "Test project for backend vacancy",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "src\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Kirill Zolotarev",
+            "email": "saintsample36@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^8.3",
+        "guzzlehttp/guzzle": "^7.2",
+        "ext-http": "*"
+    }
+}
